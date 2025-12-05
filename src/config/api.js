@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getToken } from "../services/authService";
 
-const API_URL = "https://gym-management-backend-4jbf.onrender.com/gymmanagement/api";
+const API_URL = "https://gym-management-backend-4jbf.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_URL,
